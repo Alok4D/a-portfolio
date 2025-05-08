@@ -24,7 +24,7 @@ const Navbar = () => {
       >
         <Logo />
       </div>
-      <aside className="flex__center sidebar">
+      <aside className={`flex__center sidebar ${showSidebar && "visible"}`}>
         <div className="flex sidebar__top">
           <span
             className="icon__container close__btn"
