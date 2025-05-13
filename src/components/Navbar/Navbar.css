@@ -4,10 +4,10 @@
     padding: 10px 20px;
     position: fixed;
     left: 50%;
-    top: 20px;
+    /* top: 20px; */
     z-index: 200;
     width: 90%;
-    max-width: 1000px;
+    /* max-width: 1000px; */
     transform: translateX(-50%);
     border-radius: 50px;
 }

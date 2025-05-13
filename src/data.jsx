@@ -40,17 +40,17 @@ export const menu = [
   { name: "Testimonial" },
   { name: "Contact" },
 ];
-
+// service section Data
 export const services = [
   {
-    title: "UI/UX Design",
+    title: "Web Development & Design",
     icon: <FaPaintBrush />,
     description: `Crafting visually stunning and user-centric designs that ensure seamless user experiences. 
                   From wireframes to high-fidelity prototypes, I focus on creating intuitive interfaces that 
                   blend creativity and functionality, enhancing engagement and usability.`,
   },
   {
-    title: "Web Development",
+    title: "Static & Dynamic Websites",
     icon: <FaCodeCompare />,
     color: "blueviolet",
     colorRGB: "138, 43, 226",
@@ -59,7 +59,7 @@ export const services = [
     for speed, scalability, and accessibility, delivering a robust online presence.`,
   },
   {
-    title: "Content Creation",
+    title: "Responsiveness",
     icon: <GiIdea />,
     color: "var(--color-success)",
     colorRGB: "var(--color-success-rgb)",

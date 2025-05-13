@@ -5,6 +5,8 @@
 #header .breath__circle{
     position: absolute;
     right: 0;
+    /* top: 6%;
+   left: 51%; */
     z-index: 1;
 }
 #header .grid {
