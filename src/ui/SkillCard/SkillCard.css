@@ -15,24 +15,43 @@
 }
 .skill__card .skill__content{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
 }
 .skill__card .skill__details{
-    gap: 1rem;
+    gap: 5px;
 }
 .skill__card .skill__logo{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
 }
 .skill__card .skill__logo img{
     object-fit: contain;
 }
 .skill__card .skill__details .skill__name{
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 500;
 }
-.skill__card .skill__details .skill__level{
-    font-size: 14px;
+
+/* skill animation */
+#skill-CD{
+    border: 1px solid #019fc7;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    
 }
+
+/* skill animation end */
 /* responsive */
+@media (max-width: 350px) {
+    .skill__card .skill__details .skill__name {
+        font-size: 12px;
+    }
+    .skill__card .skill__details .skill__level{
+        font-size: 10px;
+    }
+}
