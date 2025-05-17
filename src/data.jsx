@@ -35,7 +35,7 @@ import {
 export const menu = [
   { name: "About" },
   { name: "Services" },
-  { name: "Skill" },
+  { name: "Skills" },
   { name: "Projects" },
   { name: "Testimonial" },
   { name: "Contact" },
@@ -210,7 +210,7 @@ export const projects = [
 
 // skill section data
 export const skills = [
-   {
+  {
     title: "Frontend Development",
     data: [
       {
@@ -270,55 +270,7 @@ export const skills = [
       },
     ],
   },
- 
-  {
-    title: "Tools & Technologies",
-    data: [
-       {
-        skill: "Git",
-        level: "Intermediate",
-        logo: sketch,
-      },
-      {
-        skill: "Figma",
-        level: "Experienced",
-        logo: figma,
-      },
-     
-      {
-        skill: "Github",
-        level: "Intermediate",
-        logo: xd,
-      },
-      {
-        skill: "Vs Code",
-        level: "Intermediate",
-        logo: xd,
-      },
-      {
-        skill: "Postman",
-        level: "Intermediate",
-        logo: xd,
-      },
-      {
-        skill: "Firebase",
-        level: "Intermediate",
-        logo: xd,
-      },
-      {
-        skill: "NPM",
-        level: "Intermediate",
-        logo: xd,
-      },
-      {
-        skill: "Vercel",
-        level: "Intermediate",
-        logo: xd,
-      },
-    ],
-  },
 ];
-
 
 export const contactInfo = [
   {
