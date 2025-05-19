@@ -1,11 +1,9 @@
-import { FaPaintBrush } from "react-icons/fa";
+import { FaFacebook, FaPaintBrush, FaTwitter } from "react-icons/fa";
 import { SiFiverr } from "react-icons/si";
 import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import { FaCodeCompare } from "react-icons/fa6";
 import { GiIdea } from "react-icons/gi";
-import { MdOutlineEmail } from "react-icons/md";
-import { RiMessengerLine } from "react-icons/ri";
-import { BsWhatsapp } from "react-icons/bs";
+
 import {
   project1,
   project2,
@@ -26,9 +24,7 @@ import {
   bootstrap,
   react,
   reactnative,
-  emailicon,
-  messengericon,
-  whatsappicon,
+
 } from "./assets";
 
 export const menu = [
@@ -281,52 +277,27 @@ export const skills = [
   },
 ];
 
-export const contactInfo = [
-  {
-    name: "Email",
-    value: "mradinuba@gmail.com",
-    link: "mailto:mradinuba@gmail.com",
-    icon: emailicon,
-    btnIcon: <MdOutlineEmail />,
-    color: "rgb(56,115,205)",
-  },
-  {
-    name: "Messenger",
-    value: "Emmanuel Eze",
-    link: "http://m.me/profile?id=profile-i",
-    icon: messengericon,
-    btnIcon: <RiMessengerLine />,
-    color: "rgb(139,74,251)",
-  },
-  {
-    name: "WhatsApp",
-    value: "+2348149121918",
-    link: "https://api.whatsapp.com/send?phone=+2348149121918",
-    icon: whatsappicon,
-    btnIcon: <BsWhatsapp />,
-    color: "rgb(38,234,112)",
-  },
-];
+
 export const socialHandles = [
   {
-    name: "Fiverr",
-    icon: <SiFiverr />,
-    link: "",
+    name: "Facebook",
+    icon: <FaFacebook />,
+    link: "https://www.facebook.com/alok.roy.738161",
   },
   {
     name: "Github",
     icon: <AiFillGithub />,
-    link: "",
+    link: "https://github.com/Alok4D",
   },
   {
     name: "LinkedIn",
     icon: <AiFillLinkedin />,
-    link: "",
+    link: "https://www.linkedin.com/in/alok-roy-likedin/",
   },
   {
-    name: "Youtube",
-    icon: <AiFillYoutube />,
-    link: "https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
+    name: "Twitter",
+    icon: <FaTwitter />,
+    link: "https://x.com/AlokRoy1880109",
   },
 ];
 

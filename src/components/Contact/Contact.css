@@ -60,7 +60,7 @@
 }
 .contact-info .box__c .text h6{
     font-weight: 500;
-    color: #2563eb;
+    color: var(--color-primary);
     font-size: 1em;
 }
 .connect{
