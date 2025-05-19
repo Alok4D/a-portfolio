@@ -1,3 +1,82 @@
+/*  */
+.contact-info{
+    display: flex;
+    flex-direction: column;
+}
+.contact-info .box__c{
+    position: relative;
+    padding: 20px;
+    display: flex;
+    cursor: pointer;
+}
+.contact-info .box__c .iconC{
+    position: relative;
+    min-width: 60px;
+    height: 60px;
+    background: repeating-conic-gradient(from 27.5deg, #2563eb 0%,
+    #2563eb 10%, transparent 10%, transparent 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info .box__c .iconC::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+       background: repeating-conic-gradient(from 117.5deg, #2563eb 0%,
+    #2563eb 10%, transparent 10%, transparent 50%);
+
+}
+.contact-info .box__c .iconC::after{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #222;
+}
+.contact-info .box__c .iconC b {
+    position: absolute;
+    inset: 8px;
+    background: #4579e9;
+    z-index: 2;
+}
+.otherStyle{
+    position: relative;
+    z-index: 1000;
+    /* color: #9b9898; */
+    color: white;
+    font-size: 1.25em;
+}
+.otherStyle:hover{
+  background-color: #2563eb;
+}
+.contact-info .box__c .text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 300;
+}
+.contact-info .box__c .text h6{
+    font-weight: 500;
+    color: #2563eb;
+    font-size: 1em;
+}
+.connect{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    gap: 20px;
+     font-size: 1.5em;
+     color: #01dbc2;
+}
+.sI{
+    color: #dbd8d8;
+    font-size: 1.5em;
+}
+
+/*  */
 #contact{
     overflow: hidden;
 }
@@ -124,38 +203,15 @@ textarea:focus{
     font-size: 20px;
     background: var(--color-primary);
     border-radius: 16px;
-    overflow: hidden;
-    transition: var(--transition);
+    width: 100%;
     cursor: pointer;
-    margin: auto;
+   
 }
-#contact .submit__btn span{
-    display: block;
-    margin-left: 0.3rem;
-    transition: var(--transition);
+#contact .submit__btn:hover{
+    background: #01dbc2;
 }
-#contact .submit__btn svg{
-    display: block;
-    transform-origin: center center;
-    transition: transform 0.3s ease-in-out;
-}
-#contact .submit__btn:hover .icon{
-    animation: fly 0.6s ease-in-out infinite alternate;
-}
-@keyframes fly {
-    from {
-        transform: translateY(0.1rem);
-    }
-    to {
-        transform: translateY(-0.5rem);
-    }
-}
-#contact .submit__btn:hover svg {
-    transform: translateX(1.2rem) rotate(45deg) scale(1.1);
-}
-#contact .submit__btn:hover span {
-    transform: translateX(8rem);
-}
+
+
 /* responsive */
 @media (max-width : 1000px){
     #contact .pyramid__container{

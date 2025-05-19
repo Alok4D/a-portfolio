@@ -18,7 +18,6 @@ import {
   profile5,
   profile6,
   figma,
-  sketch,
   xd,
   css,
   html,
