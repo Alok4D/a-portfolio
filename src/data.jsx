@@ -241,12 +241,17 @@ export const skills = [
       {
         skill: "React",
         level: "Experienced",
-        logo: react,
+        logo: 'https://static-00.iconduck.com/assets.00/react-javascript-js-framework-facebook-icon-1024x911-dnspa9ed.png',
       },
       {
-        skill: "React Native",
+        skill: "Next.js",
         level: "Experienced",
-        logo: reactnative,
+        logo: 'https://marcbruederlin.gallerycdn.vsassets.io/extensions/marcbruederlin/next-icons/0.1.0/1723747598319/Microsoft.VisualStudio.Services.Icons.Default',
+      },
+      {
+        skill: "Redux",
+        level: "Experienced",
+        logo: 'https://static-00.iconduck.com/assets.00/redux-icon-2048x1945-ahvhunxp.png',
       },
     ],
   },
@@ -254,19 +259,24 @@ export const skills = [
     title: "Backend Development",
     data: [
       {
-        skill: "Figma",
+        skill: "Node.js",
         level: "Experienced",
-        logo: figma,
+        logo: 'https://cdn-icons-png.flaticon.com/256/5968/5968322.png',
       },
       {
-        skill: "Sketch",
+        skill: "Express.js",
         level: "Intermediate",
-        logo: sketch,
+        logo: 'https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png',
       },
       {
-        skill: "XD",
+        skill: "MongoDB",
         level: "Intermediate",
-        logo: xd,
+        logo: 'https://static-00.iconduck.com/assets.00/database-mongo-db-icon-980x1024-1q3t2p6x.png',
+      },
+      {
+        skill: "Mongoose",
+        level: "Intermediate",
+        logo: 'https://img.icons8.com/?size=512&id=gKfcEStXI1Hm&format=png',
       },
     ],
   },
