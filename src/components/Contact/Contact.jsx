@@ -30,8 +30,6 @@ const Contact = () => {
         text: "Message send successfully!",
         icon: "success",
       });
-
-      // ✅ Clear form fields
       event.target.reset();
     }
   };
