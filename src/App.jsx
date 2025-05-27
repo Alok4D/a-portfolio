@@ -6,7 +6,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Project from "./components/Project/Project";
 import Services from "./components/Services/Services";
 import Skill from "./components/Skill/Skill";
-import Testimonial from "./components/Testimonial/Testimonial";
+// import Education from "./ui/Education/Education";
+
 
 const App = () => {
   return (
@@ -17,7 +18,7 @@ const App = () => {
       <Services />
       <Skill />
       <Project />
-      <Testimonial />
+      {/* <Education/> */}
       <Contact />
       <Footer />
     </>

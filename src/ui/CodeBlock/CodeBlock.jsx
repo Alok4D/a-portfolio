@@ -12,6 +12,7 @@ const CodeBlock = ({ language, code }) => {
         <span className="dot"></span>
         <span className="dot"></span>
         <span className="dot"></span>
+        <h6 id="codeDev">developer.js</h6>
       </div>
       <SyntaxHighlighter
         language={language}
@@ -19,7 +20,8 @@ const CodeBlock = ({ language, code }) => {
         customStyle={{
           background: "rgba(var(--color-primary-rgb), 0.03)",
           color: "skyblue",
-          padding: "20px",
+          paddingLeft: "20px",
+          paddingRight: "20px",
           fontSize: "14px",
         }}
         wrapLongLines={true}

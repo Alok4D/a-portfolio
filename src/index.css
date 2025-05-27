@@ -76,12 +76,12 @@ body {
   overflow: hidden;
   overflow-y: auto;
 }
-a {
+/* a {
   display: block;
   color: var(--color-text);
   text-decoration: none;
   cursor: pointer;
-}
+} */
 
 h1,
 h2,
@@ -90,12 +90,12 @@ h4,
 h5 {
   font-weight: 500;
 }
-img {
+/* img {
   min-height: 100%;
   width: 100%;
   object-fit: cover;
   display: block;
-}
+} */
 
 .card {
   padding: 20px;
@@ -191,6 +191,7 @@ img {
 }
 .text__muted {
   color: var(--color-muted);
+  font-size: 18px;
 }
 .g-text {
   background: linear-gradient(

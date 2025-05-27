@@ -1,6 +1,6 @@
 import { FaFacebook, FaPaintBrush, FaTwitter } from "react-icons/fa";
-import { SiFiverr } from "react-icons/si";
-import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
+
+import { AiFillGithub, AiFillLinkedin} from "react-icons/ai";
 import { FaCodeCompare } from "react-icons/fa6";
 import { GiIdea } from "react-icons/gi";
 
@@ -32,7 +32,7 @@ export const menu = [
   { name: "Services" },
   { name: "Skills" },
   { name: "Projects" },
-  { name: "Testimonial" },
+  { name: "Education" },
   { name: "Contact" },
 ];
 // service section Data

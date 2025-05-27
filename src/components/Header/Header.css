@@ -26,10 +26,32 @@
     margin-top: 10px;
 }
 #header .profile__photo{
-    object-fit: contain;
-    filter: grayscale(100%);
+    /* object-fit: contain; */
+    /* filter: grayscale(100%); */
+}
+.column img{
+    height: 665px;
+    width: auto;
+    object-fit: cover;
+    display: block;
 }
 
+#banner-paragraph{
+    margin-top: 10px;
+}
+#banner-span{
+   
+    margin-left: 5px;
+   
+}
+#codeSocial{
+    color: white;
+    font-size: 18px;
+  
+}
+.banner-title{
+    margin-top: 80px;
+}
 
 /* responsive */
 @media (max-width: 768px) {
@@ -46,4 +68,11 @@
     #header .social__handles__container {
         justify-content: center;
     }
+    .column img{
+    height: auto;
+    width: auto;
+}
+.banner-title{
+    margin-top: 12px;
+}
 }
